@@ -86,7 +86,7 @@ export default function About() {
           >
             <div className="w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto glass rounded-3xl relative overflow-hidden group border-neon-purple/20">
               <img 
-              src="profile.jpg" 
+              src="/profile.jpg" 
               alt="Sana"
               className="w-full h-full object-cover opacity-80"
               />
