@@ -10,7 +10,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="section pt-28 md:pt-32 w-screen flex-shrink-0 min-h-screen flex items-center bg-app-bg" >
+    <section id="about" className="section pt-28 md:pt-32 w-screen flex-shrink-0 h-screen flex items-center bg-app-bg" >
       <div className="container mx-auto px-6 flex items-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <motion.div
@@ -86,7 +86,7 @@ export default function About() {
           >
             <div className="w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto glass rounded-3xl relative overflow-hidden group border-neon-purple/20">
               <img 
-              src="/profile.jpg" 
+              src="profile.jpg" 
               alt="Sana"
               className="w-full h-full object-cover opacity-80"
               />
